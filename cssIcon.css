@@ -429,3 +429,24 @@
     border-bottom: 1px solid transparent;
     border-radius: 16px 16px 0 0;
 }
+.emailIcon{
+	position: absolute;
+	color: #000;
+	margin-top: 10px;
+	margin-left: 840px;
+	width: 40px;
+	height: 30px;
+	border: 1px solid #000;
+}
+.emailIcon:before{
+	content: "";
+	position: absolute;
+	left: 5px;
+	top: -15px;
+	height: 29px;
+	width: 29px;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+	-webkit-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+}
